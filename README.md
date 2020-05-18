@@ -1,5 +1,4 @@
-# Palindromos
-Trabajo en clases: Caso Palindromos
+# Trabajo en clases: Caso Palindromos
 
 Este repositorio contiene 3 versiones del trabajo realizado en clases. En orden de avance son las siguientes:
 1.	Versión original: Esta es la versión más parecida al primer ejemplo en JavaScript.
