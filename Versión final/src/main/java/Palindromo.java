@@ -5,6 +5,8 @@ public class Palindromo {
     }
 
     public boolean esPalindromo(String palabra){
+        palabra = revisarString(palabra);
+
         String palabraAux = "";
 
         for (int i=palabra.length()-1; i>=0; i--){
@@ -16,6 +18,10 @@ public class Palindromo {
     }
     
     private String revisarString(String a){
+
+        a = a.replace(" ", "");
+        System.out.println(a);
+
         return a;
     }
 }
