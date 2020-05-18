@@ -10,7 +10,6 @@ public class App {
         System.out.print("Ingrese una palabra: ");
         String s = teclado.nextLine();
 
-
         if(p.esPalindromo(s)){
             System.out.println("La palabra ingresada es un palíndromo");
         }
@@ -18,7 +17,4 @@ public class App {
             System.out.println("La palabra ingresada no es un palíndromo");
         }
     }
-
-
-
 }
