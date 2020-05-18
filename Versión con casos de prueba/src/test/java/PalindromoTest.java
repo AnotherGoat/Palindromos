@@ -51,6 +51,6 @@ public class PalindromoTest {
     }
     @Test
     public void esPalindromo7() {
-        assertTrue(p.esPalindromo("h"));
+        assertFalse(p.esPalindromo("h"));
     }
 }
