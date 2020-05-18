@@ -25,11 +25,11 @@ public class PalindromoTest {
     }
     @Test
     public void esPalindromo1() {
-        assertFalse(p.esPalindromo("AnitaLavaLaTina"));
+        assertTrue(p.esPalindromo("AnitaLavaLaTina"));
     }
     @Test
     public void esPalindromo2() {
-        assertFalse(p.esPalindromo("anita lava la tina"));
+        assertTrue(p.esPalindromo("anita lava la tina"));
     }
     @Test
     public void esPalindromo3() {
