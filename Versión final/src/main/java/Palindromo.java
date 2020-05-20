@@ -37,8 +37,8 @@ public class Palindromo {
         }
 
         // Elimina las tildes/diéresis
-        String[] conTildes = {"Á", "á", "É", "é", "Í", "í", "Ó", "ó", "Ú", "ú", "Ü", "ü"};
-        String[] sinTildes = {"a", "a", "e", "e", "i", "i", "o", "o", "u", "u", "u", "u"};
+        String[] conTildes = {"Á", "á", "À", "à", "Ä", "ä", "É", "é", "È", "è", "Ë", "ë", "Í", "í", "Ì", "ì", "Ï", "ï", "Ó", "ó", "Ò", "ò", "Ö", "ö", "Ú", "ú", "Ù", "ù", "Ü", "ü", "Ý", "ý", "ÿ"};
+        String[] sinTildes = {"a", "a", "a", "a", "a", "a", "e", "e", "e", "e", "e", "e", "i", "i", "i", "i", "i", "i", "o", "o", "o", "o", "o", "o", "u", "u", "u", "u", "u", "u", "y", "y", "y"};
         for(int i=0; i<conTildes.length; i++){
             a = a.replace(conTildes[i], sinTildes[i]);
         }
@@ -46,3 +46,4 @@ public class Palindromo {
         return a;
     }
 }
+

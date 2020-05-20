@@ -89,4 +89,8 @@ public class PalindromoTest {
     public void esPalindromo16() {
         assertTrue(p.esPalindromo("Ají traga la lagartija"));
     }
+    @Test
+    public void esPalindromo17() {
+        assertTrue(p.esPalindromo("ýáöèïeoay"));
+    }
 }
